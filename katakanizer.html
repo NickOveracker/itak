@@ -12,7 +12,6 @@
     function convert()
     {
         document.getElementById("output-span").innerText = latinToKana(document.getElementById('latin-input').value);
-        return false;
     }
 </script>
 <header>
@@ -24,7 +23,7 @@
     <div id="wrapper">
         <h1>Alphabet-to-Katakana Converter for the Ainu Language</h1>
         <div id="kana-tool">
-            <form action="#" onsubmit="convert();">
+            <form action="#" onsubmit="convert(); return false;">
                 <input id="latin-input" type="text value="Latin">
                 <input type="submit" value="Katakanize">
             </form>
