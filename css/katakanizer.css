@@ -1,13 +1,5 @@
-#kana-tool {
-  width: 100%;
-  display: flex;
-}
-
-#kana-tool form {
-  margin: auto;
-}
-
-#kana-tool form input {
+#kana-tool form div {
+  display: block;
   width: 25%;
 }
 
