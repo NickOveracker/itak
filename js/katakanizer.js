@@ -21,19 +21,19 @@ function convert()
     if(words[ii].length === 0) continue;
     
     // Handle ONE punctuation mark per word.
-    switch(words[ii].charAt(words[ii].length-1) {
-           case ',':
-              punctuation = "、";
-              words[ii] = words[ii].substring(0,words[ii].length-1);
-              break;
-           case '.':
-              punctuation = "。";
-              words[ii] = words[ii].substring(0,words[ii].length-1);
-              break;
-           case '?':
-              punctuation = "？";
-              words[ii] = words[ii].substring(0,words[ii].length-1);
-              break;
+    switch(words[ii].charAt(words[ii].length-1)) {
+    case ',':
+      punctuation = "、";
+      words[ii] = words[ii].substring(0,words[ii].length-1);
+      break;
+    case '.':
+      punctuation = "。";
+      words[ii] = words[ii].substring(0,words[ii].length-1);
+      break;
+    case '?':
+      punctuation = "？";
+      words[ii] = words[ii].substring(0,words[ii].length-1);
+      break;
     }
 
     // Add to the output string.
