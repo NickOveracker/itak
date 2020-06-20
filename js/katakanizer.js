@@ -5,10 +5,10 @@ function convert()
 
   if(input.length > 0)
   {
-    document.getElementById("katakanizer-output").innerText = latinToKana(input);
+    document.getElementById("katakanizer-output").value = latinToKana(input);
   }
   else
   {
-    document.getElementById("katakanizer-output").innerText = latinToKana(placeholder);
+    document.getElementById("katakanizer-output").value = latinToKana(placeholder);
   }
 }
