@@ -6,16 +6,18 @@
 }
 
 #kana-tool form input {
-  width: 100%;
   text-align: center;
   height: 2em;
   color: #000;
 }
 
-#katakanizer-output {
+#katakanizer-field {
   width: 85%;
+  float: left;
 }
 
-#katakanizer-copy-button {
-  width:12%
+.katakanizer-button {
+  width: 12%;
+  padding: 0;
+  float: right;
 }
