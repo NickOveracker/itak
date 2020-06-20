@@ -1,6 +1,12 @@
-#kana-tool form div {
+#kana-tool div {
   display: block;
   width: 25%;
+  margin: auto;
+  text-align: center;
+}
+
+#kana-tool form input {
+  width: 100%;
 }
 
 #katakanizer-output {
