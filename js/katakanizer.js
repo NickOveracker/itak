@@ -44,7 +44,7 @@ function convert()
     output += latinToKana(words[ii]) + punctuation;
 
     // Add a space if necessary.
-    if(words.length - 1 > ii) {
+    if(punctuation.length === 0 && words.length - 1 > ii) {
       output += "　";
     }
   } // end for loop
