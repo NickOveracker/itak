@@ -22,12 +22,12 @@
         <div id="kana-tool">
             <form action="#" onsubmit="convert(); return false;">
                 <div>
-                    <input id="katakanizer-input" type="text" placeholder="aynu=itak" />
+                    <input id="katakanizer-input" class="katakanizer-field" type="text" placeholder="aynu=itak" />
                     <br />
-                    <input type="submit" value="Katakanize" />
+                    <input type="submit" class="katakanizer-button" value="Katakanize" />
                     <br />
-                    <input readonly="" id="katakanizer-output" />
-                    <input id="katakanizer-copy-button" type="button" value="⧉" onclick="document.getElementById('katakanizer-output').select(); document.execCommand('copy');" />
+                    <input readonly="" id="katakanizer-output" class="katakanizer-field" />
+                    <input type="button" id="katakanizer-copy-button" class="katakanizer-button" value="⧉" onclick="document.getElementById('katakanizer-output').select(); document.execCommand('copy');" />
                 </div>
             </form>
         </div> <!-- END MAIN-TEXT -->
