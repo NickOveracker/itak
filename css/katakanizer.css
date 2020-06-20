@@ -5,6 +5,10 @@
   text-align: center;
 }
 
+#kana-tool form {
+  padding-bottom: 2em;
+}
+
 #kana-tool form input {
   text-align: center;
   height: 2em;
