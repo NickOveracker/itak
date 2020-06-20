@@ -11,3 +11,11 @@
   height: 2em;
   color: #000;
 }
+
+#katakanizer-output {
+  width: 85%;
+}
+
+#katakanizer-copy-button {
+  width:12%
+}
