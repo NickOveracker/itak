@@ -25,3 +25,13 @@
   padding: 0;
   float: right;
 }
+
+#katakanizer-input:focus::-webkit-input-placeholder{
+  color: transparent!important;
+}
+#katakanizer-input:focus::-moz-placeholder{
+  color: transparent!important;
+}
+#katakanizer-input:focus:-moz-placeholder{
+  color: transparent!important;
+}
