@@ -1,19 +1,16 @@
-<!DOCTYPE html>
+<!DOCTYPE html />
 <html>
 <head lang="en">
     <meta charset="UTF-8" />
     <title>Katakanize</title>
     <link rel="stylesheet" href="https://nickoveracker.github.io/ainu-tools/css/style.css" type="text/css">
+    <link rel="stylesheet" href="./css/katakanizer.css" type="text/css">
     <script src="https://nickoveracker.github.io/ainu-tools/js/text-formatting.js"></script>
+    <script src="./js/katakanizer.js"></script>
 </head>
     
 <body onload="">
-<script>
-    function convert()
-    {
-        document.getElementById("output-span").innerText = latinToKana(document.getElementById('latin-input').value);
-    }
-</script>
+    
 <header>
     <span id="photo-credit"><a href="https://flic.kr/p/RrPUM7">Photo</a> by <a href="https://www.flickr.com/photos/nikunoki/">Satoshi KINOKUNI</a></span>
     <span id="e-begging"><a href="https://paypal.me/2kk9">Buy me coffee!</a></span>
@@ -24,10 +21,11 @@
         <h1>Alphabet-to-Katakana Converter for the Ainu Language</h1>
         <div id="kana-tool">
             <form action="#" onsubmit="convert(); return false;">
-                <input id="latin-input" type="text value="Latin">
-                <input type="submit" value="Katakanize">
+                <input id="katakanizer-input" type="text" placeholder="aynu=itak" />
+                <br />
+                <input type="submit" value="Katakanize" />
             </form>
-            <span id="output-span"></span>
+            <span id="katakanizer-output"></span>
         </div> <!-- END MAIN-TEXT -->
     </div> <!-- END WRAPPER -->
 </div> <!-- END WRAPPER-BG -->
