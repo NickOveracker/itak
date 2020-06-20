@@ -1,0 +1,16 @@
+#kana-tool {
+  width: 100%;
+  display: flex;
+}
+
+#kana-tool form {
+  margin: auto;
+}
+
+#kana-tool form input {
+  width: 25%;
+}
+
+#katakanizer-output {
+  width: 25%;
+}
