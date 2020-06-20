@@ -3,7 +3,6 @@ function convert()
 {
   let input = document.getElementById('katakanizer-input').value;
   let output = "";
-  let punctuation = "";
   
   // If no user input, use the placeholder.
   if(input.length <= 0) {
@@ -21,6 +20,7 @@ function convert()
     if(words[ii].length === 0) continue;
     
     // Handle ONE punctuation mark per word.
+    let punctuation = "";
     switch(words[ii].charAt(words[ii].length-1)) {
     case ',':
       punctuation = "、";
@@ -32,6 +32,10 @@ function convert()
       break;
     case '?':
       punctuation = "？";
+      words[ii] = words[ii].substring(0,words[ii].length-1);
+      break;
+    case '!':
+      punctuation = "！";
       words[ii] = words[ii].substring(0,words[ii].length-1);
       break;
     }
