@@ -8,8 +8,5 @@
 #kana-tool form input {
   width: 100%;
   text-align: center;
-}
-
-#katakanizer-output {
-  width: 25%;
+  height: 2em;
 }
