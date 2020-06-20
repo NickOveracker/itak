@@ -26,7 +26,8 @@
                     <br />
                     <input type="submit" value="Katakanize" />
                     <br />
-                    <input disabled="" id="katakanizer-output" />
+                    <input disabled="" style="width:90%" id="katakanizer-output" />
+                    <input style="width:10%"; type="button" value="📋" onclick="document.getElementById("katakanizer-output").select(); document.execCommand('copy');" />
                 </div>
             </form>
         </div> <!-- END MAIN-TEXT -->
